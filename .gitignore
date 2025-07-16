@@ -1,0 +1,11 @@
+# VuePress 默认临时文件目录
+.temp/
+# VuePress 默认缓存目录
+.cache/
+# VuePress 默认构建生成的静态文件目录
+dist/
+
+# macOS 系统生成的文件
+.DS_Store
+
+node_modules/
