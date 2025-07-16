@@ -16,6 +16,16 @@ export default defineUserConfig({
   theme: plumeTheme({
     blog: false,
     logo: '/icon.svg',
+    copyright: 'CC-BY-NC-SA-4.0',
+
+    docsRepo: 'JacyCui/sicp-survival',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    editLinkText: '帮助我改善此页面！',
+
+    footer: {
+      copyright: 'Copyright &copy; 2025-Present Jacy Cui',
+    },
 
     sidebar: {
       'guides' : [
@@ -79,6 +89,7 @@ export default defineUserConfig({
       { text: '首页', icon: 'material-symbols:home', link: '/' },
       { text: '指南', icon: 'icon-park-solid:guide-board', link: '/guides/intro/' },
       { text: '知识', icon: 'tdesign:book-filled', link: '/notes/intro/' },
+      { text: '查看源码', icon: 'carbon:repo-source-code', link: 'https://github.com/JacyCui/sicp-survival' },
     ],
 
     plugins: { 
